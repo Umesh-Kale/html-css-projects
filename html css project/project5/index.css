@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hedding{
+    background-image: url("image/back.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    margin: auto;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 25px;
+    margin: 10px 15px;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    float: right;
+}
+.header h1{
+    color: #fff;
+    font-size: 60px;
+    padding-top: 100px;
+}
+.header p{
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    position: relative;
+    right: 350px;
+}
+.head{
+    text-align: center;
+    padding-top: 30px;
+}
+.btn1{
+    text-align: center;
+    padding-top: 30px;
+}
+.btn1 button{
+    padding: 10px 35px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+/* gallery start here */
+.gallery{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    width: 80%;
+}
+.gallery-col{
+    flex-basis: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    /* margin-bottom: 5%; */
+    text-align: left;
+}
+.gallery-col img{
+    width: 100%;
+  height: 200px;
+  background: transparent;
+  border-radius: 3px;
+}
+.gallery-col h4{
+    text-align: center;
+    background: transparent;
+    background-color: gray;
+    position: relative;
+    transition: 0.5s;
+    bottom: 30px;
+    height: 30px;
+}
+
+/* gallery ends here */

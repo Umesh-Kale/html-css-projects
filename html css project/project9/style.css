@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    box-shadow: 0px 0px 20px black,
+    inset 10px 20px  red;
+    position: fixed;
+    z-index: 1;
+}
+.menu1 ul{
+    list-style: none;
+    background-color: rgb(253, 248, 248);
+    padding: 0;
+    margin: 0;
+    text-align: right;
+
+   }
+   .menu1 li{
+    display: inline-block;
+
+   }
+   .menu1 a{
+    text-decoration: none;
+    color: rgb(56, 52, 52);
+    width: 100px;
+    padding: 25px 20px;
+    display: block;
+    font-family: arial;
+    text-align: center;
+   }
+   .uvk{
+    float:left;
+    position: relative;
+    /* top: -12px; */
+     
+   }
+body{
+    width: 100%;
+}
+
+   
+    .image img{
+    width: 100%;
+    height: 50%;
+    
+   }  
+   .image h3{
+    position: relative;
+    margin-left: 50px;
+    bottom: 70px;
+    color: rgb(230, 85, 85);
+    font-size: 32px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   } 
+
+   .about{
+    display: flex;
+    width: 100%;
+    height: 40%;
+   padding: 40px;
+   }
+   .img{
+    width: 49%;
+   }
+   .img img{
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+   margin-left: 60px;
+   }
+   .para{
+    width:49% ;
+   }
+
+   .para h1 {
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 3px;
+   }
+
+   .para h3{
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 5px;
+    
+   }
+
+   .para p{
+    text-align: center;
+    text-align: justify;
+    position: relative;
+    line-height: 20px;
+    letter-spacing: 1px;
+    
+   }
+   .menu{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    padding: 40px;
+    text-align: justify;
+   }
+   .para1 p{
+    color: gray;
+    text-align: center;
+    text-align: justify;
+    position: relative;
+    line-height: 20px;
+    left: 80px;
+   }
+   .img1 img{
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+   margin-left: 150px;
+   }
+   .menu h4{
+    color: rgb(190, 66, 97);
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    position: relative;
+    left: 80px;
+   }
+   .menu h1{
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 5px;
+   }
+   .contact{
+    width: 70%;
+    position: relative;
+    left: 200px;
+   }
+   .uk h1{
+    letter-spacing: 2px;
+    color: rgb(85, 74, 74);
+    padding: 30px 0px;
+   }
+   .uk p{
+    line-height: 25px;
+    font-size: 15px;
+   }
+   .form input{
+    padding: 8px;
+    padding-top: 36px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgb(167, 39, 39);
+    width: 100%;
+   }
+   button{
+    margin: 30px 0px;
+    padding: 9px;
+    border: none;
+   }
+   footer{
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    height: 100px;
+   }
+   footer p{
+    text-align: center;
+    padding-top: 40px;
+   }
